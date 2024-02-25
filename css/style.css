@@ -211,7 +211,8 @@ nav ul a:hover{
 .skill__self span{
   font-weight: bold;
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 .barra-skill{
   height: 8px;
@@ -239,6 +240,8 @@ nav ul a:hover{
   right: -15px;
   font-size: 14px;
 }
+
+
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skill__self .cLang{
   width: 0%;
@@ -399,6 +402,25 @@ nav ul a:hover{
 .projects__pro p{
   font-size: 14px;
   line-height: 22px;
+  text-align: justify;
+}
+
+.projects__pro a{
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0;
+  padding: 10px 12px;
+  border: 2px solid #F5C400;
+  border-radius: 50px;
+  color: #0c0000;
+  background-color: #F5C400;
+  font-weight: bold;
+  transition: .5s;
+  font-size: 12px;
+}
+.projects__pro a:hover{
+  background-color: #fff;
 }
 
 /* SECCTION FOOTER */
