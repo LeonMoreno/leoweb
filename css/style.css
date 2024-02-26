@@ -102,8 +102,8 @@ nav ul a:hover{
   margin-bottom: 25px;
   text-align: center;
 }
-.home__content h2 span{
-  font-size: 25px;
+.home__leo{
+  font-size: 30px;
   color: #F5C400;
 }
 .home__content .description {
@@ -491,11 +491,15 @@ footer .up {
   }
 
   nav.responsive ul li {
-    margin: 5px;
+    margin: 10px;
   }
   .nav__responsive-icon {
     display: block;
   }
+  .nav__responsive-icon i{
+    font-size: 30px;
+  }
+
   .home__content h2{
     font-size: 42px;
   }

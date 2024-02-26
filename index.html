@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Leo Portfolio</title>
@@ -18,8 +18,8 @@
           <li><a href="#home" onclick="select()">HOME</a></li>
           <li><a href="#about" onclick="select()">ABOUT ME</a></li>
           <li><a href="#skills" onclick="select()">SKILLS</a></li>
-          <li><a href="#projects" onclick="select()">PROJECTS</a></li>
-          <li><a href="#contact" onclick="select()">CONTACT</a></li>
+          <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+          <!-- <li><a href="#contact" onclick="select()">CONTACT</a></li> -->
         </ul>
       </nav>
       <div class="nav__responsive-icon" onclick="responsiveMenu()">
@@ -37,9 +37,13 @@
     <section class="home" id="home">
       <div class="home__content">
         <h1>hello</h1>
-        <h2>I'm <span>Leo Moreno</span>, Software developer</h2>
-        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <a href="#projects">Go Portafolio</a>
+        <h2>I'm <span class="home__leo">Leo Moreno</span>, <span 
+          class="txt-rotate"
+          data-period="1000"
+          data-rotate='["NetAdmin", "Backend Dev", "Software Dev"]'>
+        </span></h2>
+        <!-- <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p> -->
+        <a href="#portfolio">Go Portafolio</a>
       </div>
     </section>
 
@@ -62,7 +66,7 @@
     <!-- seccion Skills -->
     <section class="skills" id="skills">
       <div class="skills__conteiner">
-        <h3>Skills</h3>
+        <h3>tech Skills</h3>
         <div class="skills__row">
             <div class="skills__col">
                 <div class="skill__self">
@@ -155,8 +159,8 @@
 
 
     <!-- seccion portafolio -->
-    <section class="projects" id="projects">
-      <h3>PROJECTS</h3>
+    <section class="projects" id="portfolio">
+      <h3>portfolio</h3>
       <div class="projects__row">
         <div class="projects__pro">
           <span class="projects__pro-icon"><i class="fa-solid fa-code"></i></span>
@@ -253,53 +257,6 @@
 
       </div>
 
-      <div class="projects__row">
-        <div class="projects__pro">
-          <span class="projects__pro-icon"><i class="fa-solid fa-code"></i></span>
-          <h4>Project MiniSHELL</h4>
-          <hr>
-          <ul class="projects__learn-tag">
-            <li>Rigor</li>
-            <li>Linux</li>
-            <li>Language C</li>
-          </ul>
-             <p>This project is about creating a simple shell. Yes, my own little bash. 
-            The objective of this project is to create a simple shell and learn a lot 
-            about processes and file descriptors, pipes, redirectionsm, UNIX.</p>
-          <a href="github.com">GoTo GitHub</a>
-        </div>
-
-        <div class="projects__pro">
-          <span class="projects__pro-icon"><i class="fa-solid fa-code"></i></span>
-          <h4>Project So_LONG</h4>
-          <hr>
-          <ul class="projects__learn-tag">
-            <li>Rigor</li>
-            <li>Linux</li>
-            <li>Language C</li>
-          </ul>
-             <p>This project is about creating a simple shell. Yes, my own little bash. 
-            The objective of this project is to create a simple shell and learn a lot 
-            about processes and file descriptors, pipes, redirectionsm, UNIX.</p>
-          <a href="github.com">GoTo GitHub</a>
-        </div>
-
-        <div class="projects__pro">
-          <span class="projects__pro-icon"><i class="fa-solid fa-code"></i></span>
-          <h4>Project algo</h4>
-          <hr>
-          <ul class="projects__learn-tag">
-            <li>Rigor</li>
-            <li>Linux</li>
-            <li>Language C</li>
-          </ul>
-             <p>This project is about creating a simple shell. Yes, my own little bash. 
-            The objective of this project is to create a simple shell and learn a lot 
-            about processes and file descriptors, pipes, redirectionsm, UNIX.</p>
-          <a href="github.com">GoTo GitHub</a>
-        </div>
-
-      </div>
       
     </section>
   </main>
