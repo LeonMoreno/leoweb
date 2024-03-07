@@ -280,13 +280,13 @@ nav ul a:hover{
   100%{width: 60%;}
 }
 
-.skill__self .stackbe{
+.skill__self .html{
   width: 0%;
   animation: 2s stackbe forwards;
 }
 @keyframes stackbe {
   0%{width: 0%;}
-  100%{width: 55%;}
+  100%{width: 45%;}
 }
 
 .skill__self .javascript{
@@ -295,7 +295,7 @@ nav ul a:hover{
 }
 @keyframes javascript {
   0%{width: 0%;}
-  100%{width: 50%;}
+  100%{width: 45%;}
 }
 
 .skill__self .docker{

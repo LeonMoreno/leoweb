@@ -19,7 +19,7 @@ function efectoHabilidades() {
     habilidades[1].classList.add("cplus");
     habilidades[2].classList.add("linux");
     habilidades[3].classList.add("ruby");
-    habilidades[4].classList.add("stackbe");
+    habilidades[4].classList.add("html");
     habilidades[5].classList.add("javascript");
     habilidades[6].classList.add("docker");
     habilidades[7].classList.add("sql");
