@@ -358,6 +358,7 @@ nav ul a:hover{
   margin: 30px auto;
 }
 .projects__pro{
+  position: relative;
   max-width: 350px;
   background-color: #fff;
   padding: 30px;
@@ -404,13 +405,16 @@ nav ul a:hover{
   font-size: 14px;
   line-height: 22px;
   text-align: justify;
+  margin-bottom: 30px;
 }
 
 .projects__pro a{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); 
   text-decoration: none;
   display: inline-block;
-  margin: 15px;
-  margin-bottom: 0;
   padding: 10px 12px;
   border: 2px solid #F5C400;
   border-radius: 50px;
@@ -420,6 +424,7 @@ nav ul a:hover{
   transition: .5s;
   font-size: 12px;
 }
+
 .projects__pro a:hover{
   background-color: #fff;
 }
